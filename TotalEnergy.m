@@ -1,4 +1,4 @@
-function E = TotalEnergy(V_wind, rho_air, A_rotor, lambda_sweep, Cp_curve, R_rotor, omega_target)
+function E = TotalEnergy(V_wind, rho_air, A_rotor, R_rotor, omega_target)
     P_tot = 0;
     for i = 1:length(V_wind)
         V_req = V_wind(i);
